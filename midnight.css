@@ -1,0 +1,19 @@
+body {
+    /* font-family: "Times New Roman", Times, serif; */
+    font: normal 1em Times, serif;
+    width: 80%;
+    margin: 1em auto;
+}
+
+h1 {
+    font-family: 3em, "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(85, 102, 68);
+    margin: 1em 0 1em;
+}
+
+img {
+    margin: 0 0 0 20px
+}
+
+
+
