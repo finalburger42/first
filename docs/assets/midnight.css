@@ -5,15 +5,20 @@ body {
     margin: 1em auto;
 }
 
-h1 {
-    font-family: 3em, "Comic Sans MS", "Comic Sans", cursive;
+h1 {    
     color: rgb(85, 102, 68);
     margin: 1em 0 1em;
+}
+
+h1 img {
+    margin-bottom: -20px;
 }
 
 img {
     margin: 0 0 0 20px
 }
 
-
+p {
+    font-family: 3em, "Comic Sans MS", "Comic Sans", cursive;
+}
 
