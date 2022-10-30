@@ -4,6 +4,8 @@
 
 body {
     /* font-family: "Times New Roman", Times, serif; */
+    background-image: url('lolxd.png');
+    background-repeat: no-repeat;
     font: normal 1em Times, serif;
     width: 80%;
     margin: 1em auto;
@@ -16,11 +18,16 @@ h1 {
 
 h1 img {
     margin-bottom: -20px;
+    max-width: 100%;
+    height: auto;
 }
 
 img {
     margin: 0 0 0 20px
 }
 
-
-
+iframe {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+}
