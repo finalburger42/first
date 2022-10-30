@@ -6,24 +6,10 @@ body {
     /* font-family: "Times New Roman", Times, serif; */
     background-image: url('lolxd.png');
     background-repeat: no-repeat;
+    background-size: contain;
     font: normal 1em Times, serif;
     width: 80%;
     margin: 1em auto;
-}
-
-h1 {    
-    color: rgb(85, 102, 68);
-    margin: 1em 0 1em;
-}
-
-h1 img {
-    margin-bottom: -20px;
-    max-width: 100%;
-    height: auto;
-}
-
-img {
-    margin: 0 0 0 20px
 }
 
 iframe {
@@ -31,3 +17,21 @@ iframe {
     height: 100%;
     width: 100%;
 }
+
+h1 {    
+    color: rgb(85, 102, 68);
+    margin: 1em 0 1em;
+}
+
+@media only screen and (min-device-width: 400px) {
+h1 img {
+    margin-bottom: -20px;
+    max-width: 100%;
+    height: auto;
+}
+}
+
+img {
+    margin: 0 0 0 20px
+}
+
