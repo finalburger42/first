@@ -11,12 +11,6 @@ body {
     margin: 1em auto;
 }
 
-iframe {
-    aspect-ratio: 16 / 9;
-    height: 100%;
-    width: 100%;
-}
-
 h1 {    
     color: rgb(85, 102, 68);
     margin: 1em 0 1em;

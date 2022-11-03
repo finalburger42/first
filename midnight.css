@@ -1,0 +1,30 @@
+.p1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+}
+
+body {
+    /* font-family: "Times New Roman", Times, serif; */
+    background-image: url('天下無双.png');
+    background-size: 10%;
+    font: normal 1em Times, serif;
+    width: 80%;
+    margin: 1em auto;
+}
+
+h1 {    
+    color: rgb(85, 102, 68);
+    margin: 1em 0 1em;
+}
+
+@media only screen and (min-device-width: 400px) {
+h1 img {
+    margin-bottom: -20px;
+    max-width: 100%;
+    height: auto;
+}
+}
+
+img {
+    margin: 0 0 0 20px
+}
+
